@@ -35,7 +35,7 @@ int main(){
         cout<<"enter the destination: "; 
         cin>>y;  
         adj[x].push_back(y);
-        adj[y].push_back(x); 
+        adj[y].push_back(x);    // 2 push_backs because it is an undirected graph
     }
 
     queue<int> q; 
