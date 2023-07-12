@@ -1,3 +1,16 @@
+/*graph traversal: BFS
+- we must have a starting point, coz there is no root!
+
+Steps: 
+1. go to the immediate neighbour first, adj ke adj se pehle apne sabhi adjes traverse karle!
+2.   DS = queue, a visited array
+3. the operation takes place as: 
+ - print(curr)
+ - vis[curr]=T
+ - enqueue the currnode's neighbour  
+
+ - O(V+E) = time complexity
+*/
 #include<bits/stdc++.h> 
 using namespace std; 
 
